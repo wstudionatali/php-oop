@@ -1,0 +1,4 @@
+/www/vendor
+/.vscode
+www/composer.lock
+/mysql-data

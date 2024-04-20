@@ -1,0 +1,16 @@
+{
+    "name": "root/html",
+    "description": "php-oop",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Root\\Html\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nata"
+        }
+    ],
+    "require": {}
+}
