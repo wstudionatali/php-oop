@@ -16,9 +16,9 @@ final class DatabaseConnection
 				"db_charset" => "UTF-8");
 
 			try {
-                echo "connect";
+               
 				$this->connection = new \PDO("mysql:host=".$db_info['db_host'].';dbname='.$db_info['db_name'], $db_info['db_user'], $db_info['db_pass']);
-                echo "connect3";
+               
                 // var_dump($this->connection);
 
 			} catch(\PDOException $error) {
