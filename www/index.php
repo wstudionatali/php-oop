@@ -6,8 +6,8 @@ use Root\Html\DatabaseConnection;
 
 
 
-// $worker = new Worker();
-// $worker->work();
+$worker = new Worker('Nata');
+$worker->rest();   /* Work of the trait HasRest */
 
 $db = DatabaseConnection::getInstance();
 $connection = $db->getConnection();
